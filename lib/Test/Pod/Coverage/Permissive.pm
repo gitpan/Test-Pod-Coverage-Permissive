@@ -28,11 +28,11 @@ Test::Pod::Coverage::Permissive - Checks for pod coverage regression.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -245,6 +245,7 @@ L<http://search.cpan.org/dist/Test-Pod-Coverage-Permissive/>
 
 =head1 ACKNOWLEDGEMENTS
 
+Thanks to aouthor of L<Test::Pod::Coverage>. 90% of this module is a copy-paste from L<Test::Pod::Coverage>.
 
 =head1 LICENSE AND COPYRIGHT
 
