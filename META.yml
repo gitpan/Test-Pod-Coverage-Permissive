@@ -20,7 +20,7 @@ no_index:
 provides:
   Test::Pod::Coverage::Permissive:
     file: lib/Test/Pod/Coverage/Permissive.pm
-    version: 0.03
+    version: 0.04
 requires:
   File::Spec: 0
   Pod::Coverage: 0
@@ -29,4 +29,4 @@ requires:
   perl: 5.8.9
 resources:
   license: http://opensource.org/licenses/gpl-license.php
-version: 0.03
+version: 0.04
