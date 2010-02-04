@@ -17,10 +17,16 @@ no_index:
   directory:
     - inc
     - t
+provides:
+  Test::Pod::Coverage::Permissive:
+    file: lib/Test/Pod/Coverage/Permissive.pm
+    version: 0.02
 requires:
+  File::Spec: 0
   Pod::Coverage: 0
   Test::More: 0.88
+  YAML::Syck: 0
   perl: 5.8.9
 resources:
   license: http://opensource.org/licenses/gpl-license.php
-version: 0.01
+version: 0.02
